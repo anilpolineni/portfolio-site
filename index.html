@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--some meta data for search engine-->
+    <meta name="description" content="Anil - Student">
+    <meta name="keywords"
+          content="python, ,python certification program Portfolio, full-stack web development, HTML, CSS, JS, JavaScript">
+    <meta name="author" content="Anil">
+
+    <title>Python Portfolio</title>
+
+    <!-- Favicon -->
+    <!-- <link rel="shortcut icon" href="images/logo.png"> -->
+    <!-- <link rel="shortcut icon" href="images/logo.png" sizes="16x16 32x32 48x48" type="image/png"> -->
+    <link rel="icon" href="images/python_logo.png" sizes="128x128" type="image/png">
+
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+
+    <!--Bootstrap and customised style-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div class="container">
+    <header>
+        <div class="row">
+            <!--Logo image on the left-->
+			<div class="col-md-6 col-sm-4 col-xs-4">
+			<a class="navbar-brand" href="https://www.python.org/">
+                <img class="title-logo" src="images/python_logo.png" alt="images/alt python_logo.png">
+				</a>
+            </div>
+			</a>
+            <!--title on the right-->
+            <div class="title-super col-md-6 col-sm-8 col-xs-8 text-right text-uppercase">
+                <h2 class="h2-px">Python Programming Language, Workshop.</h2>
+                <!-- About us button -->
+                <button type="button" class="btn btn-default pull-right button-style" data-toggle="modal"
+                        data-target="#AboutUs">About Python
+                </button>
+            </div>
+        </div>
+		<div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+    </header>
+	<!--Bootstrap carousel -->
+    <!-- Reference: https://www.w3schools.com/bootstrap/bootstrap_carousel.asp -->
+	
+
+	<div class="row mt-4">
+        <div class="col-md-12">
+            <div class="container">  
+              <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <img src="images/art.jpg" alt="images/alt_art.jpg" style="width:100%;" >
+                  </div>
+
+                  <div class="item">
+                    <img src="images/hello.jpg" alt="images/alt_hello.jpg" style="width:100%;">
+                  </div>
+				  
+				  <div class="item">
+                    <img src="images/cmd.jpg" alt="images/alt_cmd.jpg" style="width:100%;">
+                  </div>
+                
+                </div>
+
+                <!-- Prev and Next controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                  <span>Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                  <span>Next</span>
+                </a>
+              </div>
+            </div>
+        </div>
+    </div>
+	
+	 <section class="row">
+        <header class="col-md-12 section">
+            <h2 class="programs-title">Programs</h2>
+        </header>
+	
+		<div class="center-me ">
+			<article class="col-sm-3 col-md-3 ">
+				<img class="img-responsive img-thumbnail mouse-hover center-block" data-toggle="modal"
+					 data-target="#pbw"
+					 src="images/python.jpg" alt="images/alt_workshop.png">
+				<h3 class="title ">Python Basics Workshop</h3>
+			</article>
+
+			<article class="col-sm-3 col-md-3">
+				<img class="img-responsive img-thumbnail mouse-hover center-block"
+					 src="images/advancedpython.jpg" alt="alt_advanced.png" data-toggle="modal" data-target="#apw">
+				<h3 class="title">Advanced Python Workshop</h3>
+			</article>
+
+			<article class="col-sm-3 col-md-3">
+				<img class="img-responsive img-thumbnail mouse-hover center-block"
+					 src="images/certification.jpg" alt="images/alt_courseracertification-1.jpg" data-toggle="modal" data-target="#pcp">
+				<h3 class="title">Python For Everybody Certification </h3>
+			</article>
+			<article class="col-sm-3 col-md-3">
+				<img class="img-responsive img-thumbnail mouse-hover center-block" data-toggle="modal" data-target="#ffwc"
+					 src="images/full.jpg" alt="images/alt_stack.png">
+				<h3 class="title">Fullstack Foundation workshop </h3>
+			</article>
+		</div>
+	</section>
+	
+	
+	<!--footer-->
+    <footer class="col-md-12">
+        <p>Designed & Developed by   <a href="#">Anil Polineni</a>,
+		
+		<a href="http://engineering.apssdc.in">APSSDC</a>
+        </p>
+    </footer>
+</div>
+
+<!--Modal pop out information when clicking the program pictures-->
+<div class="modal fade" id="AboutUs" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content About us -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title">About Python Programming</h3>
+            </div>
+            <div class="modal-body">
+                <article>
+                    <h4 class="big">
+					    <ol style="line-height: 28px">
+                             <li>Python can be easy to pick up whether you're a first time programmer or you're experienced with other languages.</li>
+							   
+							   
+							 <li>The following pages are a useful first step to get on your way writing programs with Python.</li>
+							   
+							   
+							 <li>The community hosts conferences and meetups, collaborates on code, and much more.</li>
+							   
+							   
+							 <li>Python's documentation will help you along the way, and the mailing lists will keep you in touch.</li>
+							   
+							   
+							 <li>Python is developed under an OSI-approved open source license, making it freely usable and distributable, even for commercial use.</li> 
+							   
+							   
+							 <li>Python's license is administered by the Python Software Foundation.</li>
+						</ol>
+                    </h4>
+                </article>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="pbw" role="dialog">
+    <div class="modal-dialog">
+        <!-- Python_Basics_Workshop_Content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title">Python Basics Workshop Content</h3>
+            </div>
+            <div class="modal-body">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <img class="img-responsive" src="images/workshop_modal.png" alt="images/alt_workshop_modal.png">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="apw" role="dialog">
+    <div class="modal-dialog">
+        <!--Advanced_python_workshop_Content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title">Advanced python workshop Content</h3>
+            </div>
+            <div class="modal-body">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <img class="img-responsive" src="images/advanced_modal.png" alt="alt_advanced_modal.png">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="pcp" role="dialog">
+    <div class="modal-dialog">
+        <!-- Coursera certification -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title">Coursera Certification Content</h3>
+            </div>
+            <div class="modal-body">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <img class="img-responsive" src="images/coursera_certification-1_modal.png" alt="images/alt_coursera_certification-1_modal.png">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+	</div>
+	<div class="modal fade" id="ffwc" role="dialog">
+    <div class="modal-dialog">
+        <!-- fullstack_Foundation_Workshop_Content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title">fullstack Foundation Workshop Content</h3>
+            </div>
+            <div class="modal-body">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <img class="img-responsive" src="images/stack_modal.png" alt="images/alt_stack_modal.png">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(){
+        $(".modal-content").addClass("animated zoomIn");
+
+        $('.mouse-hover').mouseenter(function(){
+            $(this).addClass("animated swing");
+        })
+
+        $('.mouse-hover').mouseleave(function(){
+            $(this).removeClass("animated swing");
+        })
+    })
+</script>
+</body>
+</html>
+
+
