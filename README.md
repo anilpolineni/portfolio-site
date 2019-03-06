@@ -1,12 +1,12 @@
-# Project 2: To Build a Portfolio Site
-### By Anil Polineni
+## Project 2: To Build a Portfolio Site
+### By Polineni Anil
 
 Build a Portfolio Site project, part of the Udacity [Full Stack Web Developer
 Nanodegree] (https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004).
 
 ## What it is
 
-A Webpage that displays a responsive page. 
+A Webpage that displays a responsive webpage. 
 
 ## What it does
 
@@ -35,6 +35,7 @@ Double click on index.html file. It will automatically displays the responsive p
 
 * w3schools
 * https://www.quackit.com/css/
+* https://www.w3schools.com/css/default.asp
 
 Referred these sites for some styling attributes
 
