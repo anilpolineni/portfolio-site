@@ -27,7 +27,7 @@ This project consists for the following files:
 
 ## How to Run Project
 
-Download the project zip file to your computer and unzip the file.
+Download the project zip file to your computer and Extract the file.
 
 Double click on index.html file. It will automatically displays the responsive portfolio project
 
